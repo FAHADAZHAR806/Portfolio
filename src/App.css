@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "@fontsource/montserrat";
+
+html{
+
+  background-color: #161616;
+  font-family: Montserrat;
+ 
+}
+html, body {
+  overflow-x: hidden;
+}
