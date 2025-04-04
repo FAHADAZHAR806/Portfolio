@@ -26,8 +26,8 @@ export default function Header() {
           </div>
 
           {/* Desktop Navbar (Grid Layout) */}
-          <nav className="hidden sm:block">
-            <ul className="grid grid-cols-5 gap-6 px-40 justify-items-end">
+          <nav className="hidden md:block">
+            <ul className="grid grid-cols-5  px-4 justify-items-end ">
               <li>
                 <NavLink to="/Home">Home</NavLink>
               </li>

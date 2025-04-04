@@ -3,12 +3,12 @@ import React from 'react'
 export default function Form() {
   return (
    <>
-   <div className='grid sm:grid-cols-2 bg-[#161616] text-white sm:w-340 sm:m-auto justify-items-center  '>
-    <div className=' px-16 py-6 sm:px-22'> 
+   <div className='grid md:grid-cols-1 max-w-5xl m-auto bg-[#161616] text-white justify-items-center lg:grid-cols-2   lg:px-4 '>
+    <div className=' px-16 py-6 sm:grid-cols-2 justify-items-center  md:py-6 lg:justify-items-start '> 
     <h1 className="text-3xl font-bold"> GET IN TOUCH</h1>
         <hr className="text-[#F50D32] border px  w-22 my-2 " />
       
-       <p className=''>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
+       <p className='text-center lg:text-left'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
         Magni a neque tenetur vel exercitationem iusto eos ut, quasi assumenda deserunt?</p>
        
     </div>

@@ -7,7 +7,7 @@ export default function Whatwedo() {
      <h1 className="text-3xl font-bold"> Services</h1>
      <hr className="text-[#F50D32] border px  w-20 mb-6 " />
      </div>
-    <div className='grid justify-items-start px-6 sm:grid-cols-1 sm:justify-items-center sm:w-340 sm:m-auto  bg-[#161616;]  text-white sm:my-4 sm:py-10'>
+    <div className='Pricing grid justify-items-start p-4 max-w-5xl m-auto sm:grid-cols-1 sm:justify-items-center text-amber-50'>
     <h1 className="text-3xl font-bold "> What We Do</h1>
         <hr className="text-[#F50D32] border px  w-20 mb-6 " />
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
@@ -17,7 +17,7 @@ export default function Whatwedo() {
         </span>
     
     </div>
-    <div className='grid  sm:grid-cols-3 sm:grid-rows-2 justify-items-center text-white bg-[#161616;] sm:w-340 m-auto sm:px-70 py-10 rounded-2xl'>
+    <div className='grid  sm:grid-cols-2 md:grid-cols-3 max-w-5xl m-auto  justify-items-center text-white bg-[#161616;] py-10 rounded-2xl'>
        <div className='border-2 border-white w-60 h-60 my-4 rounded-2xl grid grid-cols-1 justify-items-start p-2'>
        <div className="bg-[#F50D32] rounded-2xl grid grid-cols-1 justify-items-center w-8 h-8">
     <span className='p-2'><img src="/icons/Frame.svg" alt="" /></span>

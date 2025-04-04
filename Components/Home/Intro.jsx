@@ -7,8 +7,8 @@ import Discover from './Discover'
 export default function Intro() {
   return (
     <>
-   <div className="intro grid   gap-4  w-full px-2   justify-items-start  sm:justify-items-start sm:grid-cols-1 sm:w-full sm:m-auto  md:justify-items-center md:grid-cols-2 md:w-340 md:m-auto md:p-20" >
-    <div className='grid grid-col-1 gap-6  text-[#FFFFFF] p-10 sm:p-12'>
+   <div className="intro grid   gap-20  max-w-5xl m-auto p-6   justify-items-center   sm:grid-cols-1  lg:grid-cols-2 lg:gap-0 lg:py-20 lg:px-0" >
+    <div className='grid grid-col-1 gap-6  text-[#FFFFFF] '>
     <p  className='text-[#F50D32]'>Hi, I am Fahad Azhar</p>
         <p className='text-4xl'>Front-End <span className='text-[#f57d0dc0]'>Web Developer</span></p>
         <p  >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, aliquam, sunt fugiat
@@ -18,13 +18,13 @@ export default function Intro() {
     </div>
         
 
-        <div className='bg-neutral-600 w-74 mx-3 sm:mx-0  sm:w-78 '>
+        <div className='bg-neutral-600 w-74 mx-3 sm:mx-0  sm:w-78 sm:h-98'>
         
         
         <div className='w-76 float-right h-full -my-4 -mr-2 '  >
           
           <img src="/images/bg-white.svg" alt="" className='w-full h-full relative'  /> </div>
-          <img src="/images/Design.svg" alt="" className='float-right -mt-90 -mr-6 sm:-mr-8 sm:-mt-101'/>
+          <img src="/images/Design.svg" alt="" className='float-right -mt-90 -mr-6 sm:-mr-8 sm:-mt-100'/>
 
           
         </div>

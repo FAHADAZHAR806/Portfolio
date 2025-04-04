@@ -28,7 +28,7 @@ export default function Experience() {
 
     
     <>
-      <div className="Experience grid justify-items-start px-8 sm:grid-cols-1 sm:justify-items-center  text-amber-50 bg-[#161616] sm:py-4 sm:my-4 sm:w-340 sm:m-auto">
+      <div className="Experience grid w-full justify-items-start p-4 max-w-5xl m-auto sm:grid-cols-1  sm:justify-items-center text-amber-50 ">
         <h1 className="text-3xl font-bold"> Experience & Skills</h1>
         <hr className="text-[#F50D32] border px  w-20 mb-6 " />
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
@@ -36,7 +36,8 @@ export default function Experience() {
         <span>
           magni assumenda dolores. Ullam corporis rem temporibus labore?
         </span>
-        <div className="  bg-[#161616] grid  w-full mt-6 place-items-center sm:w-240 sm:grid-cols-3 gap-3    ">
+        </div>
+        <div className="  bg-[#161616] grid  max-w-5xl m-auto py-10 justify-items-center sm:grid-cols-1  gap-3 lg:grid-cols-3    ">
         {cardsData.map((card, index) => (
           <div key={index} className="w-[280px] h-[200px] my-2 grid grid-cols-1 justify-items-center text-white text-center px-4 py-6 border-1 border-white bg-[#2E2E30]">
             <p className="text-[#F50D32]">{card.card1.title}</p>
@@ -68,45 +69,48 @@ export default function Experience() {
 
 
         </div>
-        <div className="grid    sm:grid-cols-2 sm:grid-rows-3 gap-4   my-14   ">
+        <div className="grid gap-4 pb-10 max-w-4xl m-auto text-white  justify-items-center sm:grid-cols-2  ">
           <div className=" bg-[#161616]  grid grid-cols-1  ">
             <p>Figma</p>
-            <div className=" bg-[#2E2E30] sm:w-118 h-5">
-              <div className="bg-amber-400 w-60 sm:w-110 h-full"></div>
+            <div className=" bg-[#2E2E30] w-60 md:w-80 lg:w-110 h-5">
+              <div className="bg-amber-400 w-46 sm:w-50 md:w-72  lg:w-104 h-full"></div>
             </div>
           </div>
           <div className=" bg-[#161616]  grid grid-cols-1 ">
             <p>JavaScript</p>
-            <div className=" bg-[#2E2E30] sm:w-118 h-5">
-              <div className="bg-amber-400 w-60 sm:w-110 h-full"></div>
+            <div className="  bg-[#2E2E30] w-60 md:w-80 lg:w-110 h-5">
+              <div className="bg-amber-400 w-46 sm:w-50 md:w-72  lg:w-104 h-full"></div>
             </div>
           </div>
           <div className=" bg-[#161616]  grid grid-cols-1  ">
             <p>Figma</p>
-            <div className=" bg-[#2E2E30] sm:w-118 h-5">
-              <div className="bg-amber-400 w-60 sm:w-110 h-full"></div>
+            <div className=" bg-[#2E2E30] w-60 md:w-80 lg:w-110 h-5">
+              <div className="bg-amber-400 w-46 sm:w-50 md:w-72  lg:w-104 h-full"></div>
             </div>
           </div>
           <div className=" bg-[#161616]  grid grid-cols-1 ">
             <p>JavaScript</p>
-            <div className=" bg-[#2E2E30] sm:w-118 h-5">
-              <div className="bg-amber-400 w-60 sm:w-110 h-full"></div>
+            <div className="  bg-[#2E2E30] w-60 md:w-80 lg:w-110 h-5">
+              <div className="bg-amber-400 w-46 sm:w-50 md:w-72  lg:w-104 h-full"></div>
             </div>
           </div>
           <div className=" bg-[#161616]  grid grid-cols-1  ">
             <p>Figma</p>
-            <div className=" bg-[#2E2E30] sm:w-118 h-5">
-              <div className="bg-amber-400 w-60 sm:w-110 h-full"></div>
+            <div className=" bg-[#2E2E30] w-60 md:w-80 lg:w-110 h-5">
+              <div className="bg-amber-400 w-46 sm:w-50 md:w-72  lg:w-104 h-full"></div>
             </div>
           </div>
           <div className=" bg-[#161616]  grid grid-cols-1 ">
             <p>JavaScript</p>
-            <div className=" bg-[#2E2E30] w-118 h-5">
-              <div className="bg-amber-400 w-60 sm:w-110 h-full"></div>
+            <div className="  bg-[#2E2E30] w-60 md:w-80 lg:w-110 h-5">
+              <div className="bg-amber-400 w-46 sm:w-50 md:w-72  lg:w-104 h-full"></div>
             </div>
           </div>
+         
+          
+         
         </div>
-      </div>
+      
     </>
   );
 }
