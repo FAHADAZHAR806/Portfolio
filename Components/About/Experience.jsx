@@ -28,7 +28,7 @@ export default function Experience() {
 
     
     <>
-      <div className="Experience grid w-full justify-items-start p-4 max-w-5xl m-auto sm:grid-cols-1  sm:justify-items-center text-amber-50 ">
+      <div  data-aos="fade-up"className="Experience grid w-full justify-items-start p-4 max-w-5xl m-auto sm:grid-cols-1  sm:justify-items-center text-amber-50 ">
         <h1 className="text-3xl font-bold"> Experience & Skills</h1>
         <hr className="text-[#F50D32] border px  w-20 mb-6 " />
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
@@ -37,9 +37,9 @@ export default function Experience() {
           magni assumenda dolores. Ullam corporis rem temporibus labore?
         </span>
         </div>
-        <div className="  bg-[#161616] grid  max-w-5xl m-auto py-10 justify-items-center sm:grid-cols-1  gap-3 lg:grid-cols-3    ">
+        <div  data-aos="fade-up"className="  bg-[#161616] grid  max-w-5xl m-auto py-10 justify-items-center sm:grid-cols-1  gap-3 lg:grid-cols-3    ">
         {cardsData.map((card, index) => (
-          <div key={index} className="w-[280px] h-[200px] my-2 grid grid-cols-1 justify-items-center text-white text-center px-4 py-6 border-1 border-white bg-[#2E2E30]">
+          <div data-aos="fade-up" key={index} className="w-[280px] h-[200px] my-2 grid grid-cols-1 justify-items-center text-white text-center px-4 py-6 border-1 border-white bg-[#2E2E30]">
             <p className="text-[#F50D32]">{card.card1.title}</p>
             <p className="text-xl">{card.card1.description}</p>
             <p>
@@ -48,7 +48,7 @@ export default function Experience() {
           </div>
 ))}
  {cardsData.map((card, index) => (
-          <div key={index} className="w-[280px] h-[200px] my-2 grid grid-cols-1 justify-items-center text-white text-center px-4 py-6 border-1 border-white bg-[#2E2E30]">
+          <div data-aos="fade-up" key={index} className="w-[280px] h-[200px] my-2 grid grid-cols-1 justify-items-center text-white text-center px-4 py-6 border-1 border-white bg-[#2E2E30]">
             <p className="text-[#F50D32]">{card.card2.title}</p>
             <p className="text-xl">{card.card2.description}</p>
             <p>
@@ -58,7 +58,7 @@ export default function Experience() {
           </div>
 ))}
  {cardsData.map((card, index) => (
-          <div key={index} className="w-[280px] h-[200px] my-2 grid grid-cols-1 justify-items-center text-white text-center px-4 py-6 border-1 border-white bg-[#2E2E30]">
+          <div data-aos="fade-up" key={index} className="w-[280px] h-[200px] my-2 grid grid-cols-1 justify-items-center text-white text-center px-4 py-6 border-1 border-white bg-[#2E2E30]">
             <p className="text-[#F50D32]">{card.card3.title}</p>
             <p className="text-xl">{card.card3.description}</p>
             <p>
@@ -69,14 +69,14 @@ export default function Experience() {
 
 
         </div>
-        <div className="grid gap-4 pb-10 max-w-4xl m-auto text-white  justify-items-center sm:grid-cols-2  ">
-          <div className=" bg-[#161616]  grid grid-cols-1  ">
+        <div data-aos="fade-up" className="grid gap-4 pb-10 max-w-4xl m-auto text-white  justify-items-center sm:grid-cols-2  ">
+          <div  className=" bg-[#161616]  grid grid-cols-1  ">
             <p>Figma</p>
             <div className=" bg-[#2E2E30] w-60 md:w-80 lg:w-110 h-5">
               <div className="bg-amber-400 w-46 sm:w-50 md:w-72  lg:w-104 h-full"></div>
             </div>
           </div>
-          <div className=" bg-[#161616]  grid grid-cols-1 ">
+          <div   className=" bg-[#161616]  grid grid-cols-1 ">
             <p>JavaScript</p>
             <div className="  bg-[#2E2E30] w-60 md:w-80 lg:w-110 h-5">
               <div className="bg-amber-400 w-46 sm:w-50 md:w-72  lg:w-104 h-full"></div>

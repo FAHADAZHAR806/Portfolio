@@ -3,7 +3,7 @@ import React from 'react'
 export default function Count() {
   return (
   <>
-  <div className="Experience grid px-6  max-w-5xl m-auto  sm:grid-cols-1 sm:px-0 sm:justify-items-center  text-amber-50 bg-[#161616] " >
+  <div  data-aos="fade-up" className="Experience grid px-6  max-w-5xl m-auto  sm:grid-cols-1 sm:px-0 sm:justify-items-center  text-amber-50 bg-[#161616] " >
         <h1 className="text-3xl font-bold  "> Count IN NUMBERS</h1>
       <hr className="text-[#F50D32] border   w-20 mb-6 " />
        <div > 
@@ -16,7 +16,7 @@ export default function Count() {
 
  
 </div>
-<div className='grid gap-6 max-w-5xl m-auto sm:grid-cols-4   sm:gap-0  py-6 justify-items-center text-white '>
+<div data-aos="fade-up" className='grid gap-6 max-w-5xl m-auto sm:grid-cols-4   sm:gap-0  py-6 justify-items-center text-white '>
          <div >
          <p className='text-2xl  '>80</p>
          <p className='text-[#F50D32]'>Projects</p>

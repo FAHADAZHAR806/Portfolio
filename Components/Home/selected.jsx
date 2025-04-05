@@ -3,7 +3,7 @@ import React from 'react'
 export default function Selected() {
   return (
    <>
-    <div className="Pricing grid w-full justify-items-start p-4 max-w-5xl m-auto sm:grid-cols-1  sm:justify-items-center text-amber-50 ">
+    <div data-aos="fade-up" className="Pricing grid w-full justify-items-start p-4 max-w-5xl m-auto sm:grid-cols-1  sm:justify-items-center text-amber-50 ">
         <h1 className="text-3xl font-bold"> SELECTED WORKS</h1>
       <hr className="text-[#F50D32] border px  w-20 mb-6 " />
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
@@ -12,7 +12,7 @@ export default function Selected() {
           magni assumenda dolores. Ullam corporis rem temporibus labore?
         </span>
       </div>
-      <div className="intro grid px-4 py-20 grid-cols-1 gap-4 max-w-5xl m-auto sm:grid-cols-1  sm:justify-items-center  lg:grid-cols-2 ">
+      <div data-aos="fade-up" className="intro grid px-4 py-20 grid-cols-1 gap-4 max-w-5xl m-auto sm:grid-cols-1  sm:justify-items-center  lg:grid-cols-2 ">
     <div className='grid gap-4  sm:grid-col-1 sm:gap-6  text-[#FFFFFF] sm:p-10'>
         <p className='text-4xl'>Front End Web Developer</p>
         <p  >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, aliquam, sunt fugiat
@@ -29,7 +29,7 @@ export default function Selected() {
    </div>
 
   
-   <div className="intro grid px-4 pb-20 grid-cols-1 gap-4 max-w-5xl m-auto sm:grid-cols-1   sm:justify-items-center lg:grid-cols-2  " >
+   <div data-aos="fade-up" className="intro grid px-4 pb-20 grid-cols-1 gap-4 max-w-5xl m-auto sm:grid-cols-1   sm:justify-items-center lg:grid-cols-2  " >
     
         
    <div className='bg-gray-800 mx-3 sm:mx-0 mt-10 w-80 h-80 sm:w-110'>

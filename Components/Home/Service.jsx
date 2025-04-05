@@ -3,8 +3,8 @@ import React from 'react'
 export default function Service() {
   return (
     <>
-   <div className='grid gap-10 p-10  max-w-5xl  m-auto  sm:grid-cols-3 text-[#FFFFFF]   '>
-    <div className='flex flex-col gap-4'>
+   <div data-aos="fade-up" className='grid gap-10 p-10  max-w-5xl  m-auto  sm:grid-cols-3 text-[#FFFFFF]   '>
+    <div data-aos="fade-up" className='flex flex-col gap-4'>
     <h1 className='text-3xl font-bold'> Services</h1>
     <hr  className='text-[#F50D32] w-14 '/>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, molestias rem. Voluptas mollitia ratione deleniti illum! Odio voluptatum, saepe exercitationem consequatur hic error eius iure deserunt vitae! Ea, quae quod.</p>
@@ -17,7 +17,7 @@ export default function Service() {
      
      
     
-    <div className="grid grid-cols-1 gap-4 ">
+    <div data-aos="fade-up" className="grid grid-cols-1 gap-4 ">
     <div className="bg-[#F50D32] rounded-2xl grid grid-cols-1 justify-items-center w-8 h-8">
     <span className='p-2'><img src="/icons/Frame.svg" alt="" /></span>
     </div>
@@ -30,7 +30,7 @@ export default function Service() {
     <span className='p-2'><img src="/icons/Frame1.svg" alt="" /></span>
     </div>
 
-    <h1 className='text-[#FFFFFF] '>UI/UX Design</h1>
+    <h1  className='text-[#FFFFFF] '>UI/UX Design</h1>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, molestias rem. Voluptas mollitia ratione deleniti illum! Odio voluptatum, saepe exercitationem consequatur hic error.</p>
     <button className='grid grid-rows-1 justify-items-start  py-2 '>Learn More ➡</button>
     </div>
@@ -38,7 +38,7 @@ export default function Service() {
     
     
 
-    <div className="grid grid-cols-1 gap-4 ">
+    <div data-aos="fade-up" className="grid grid-cols-1 gap-4 ">
     <div className="bg-[#F50D32] rounded-2xl grid grid-cols-1  w-8 h-8">
     <span className='p-2'><img src="/icons/Frame2.svg" alt="" /></span>
     </div>

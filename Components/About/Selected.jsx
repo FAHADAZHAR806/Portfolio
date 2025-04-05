@@ -4,7 +4,7 @@ export default function Selected() {
   return (
     <>
     
-    <div className="Pricing grid w-full justify-items-start p-4 max-w-5xl m-auto sm:grid-cols-1  sm:justify-items-center text-amber-50">
+    <div data-aos="fade-up" className="Pricing grid w-full justify-items-start p-4 max-w-5xl m-auto sm:grid-cols-1  sm:justify-items-center text-amber-50">
         <h1 className="text-3xl font-bold"> SELECTED WORKS</h1>
       <hr className="text-[#F50D32] border px  w-20 mb-6 " />
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
@@ -14,8 +14,8 @@ export default function Selected() {
         </span>
       </div>  
    
-    <div className='grid my-20  max-w-5xl m-auto sm:grid-cols-1  lg:grid-cols-2  justify-items-center text-white  '>
-        <div className='grid gap-4 pb-6 '>
+    <div data-aos="fade-up" className='grid my-20  max-w-5xl m-auto sm:grid-cols-1  lg:grid-cols-2  justify-items-center text-white  '>
+        <div data-aos="fade-up" className='grid gap-4 pb-6 '>
           <div className=' w-80 h-60 sm:w-110 sm:h-70 bg-[#161616]' >
             <img src="/icons/bgwhite.svg" alt="" className='-mr-40' />
           </div>
@@ -27,7 +27,7 @@ export default function Selected() {
           
           
         </div>
-         <div className='grid gap-4 pb-6'>
+         <div data-aos="fade-up" className='grid gap-4 pb-6'>
           <div className=' w-80 h-60 sm:w-110 sm:h-70 bg-[#161616]' >
             <img src="/icons/bgwhite.svg" alt="" className='-mr-40' />
           </div>
@@ -40,7 +40,7 @@ export default function Selected() {
           
           
         </div>
-        <div className='grid gap-4 pb-6'>
+        <div data-aos="fade-up" className='grid gap-4 pb-6'>
           <div className=' w-80 h-60 sm:w-110 sm:h-70 bg-[#161616]' >
             <img src="/icons/bgwhite.svg" alt="" className='-mr-40' />
           </div>
@@ -52,7 +52,7 @@ export default function Selected() {
           
           
         </div>
-        <div className='grid gap-4 pb-6'>
+        <div data-aos="fade-up" className='grid gap-4 pb-6'>
           <div className=' w-80 h-60 sm:w-110 sm:h-70 bg-[#161616]' >
             <img src="/icons/bgwhite.svg" alt="" className='-mr-40' />
           </div>
