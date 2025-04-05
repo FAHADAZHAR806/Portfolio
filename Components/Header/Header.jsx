@@ -10,7 +10,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="bg-[#161616] text-white shadow-md">
+      <header className="bg-[#161616] text-white shadow-md  ">
         <div className="container m-auto grid grid-cols-[auto_auto] items-center py-6 max-w-screen-xl px-4">
           {/* Logo */}
           <h1 className="pl-10 text-[#F50D32] text-2xl font-bold">

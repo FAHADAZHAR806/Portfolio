@@ -18,16 +18,20 @@ export default function Intro() {
     </div>
         
 
-        <div className='bg-neutral-600 w-74 mx-3 sm:mx-0  sm:w-78 sm:h-98'>
+       
         
         
-        <div className='w-76 float-right h-full -my-4 -mr-2 '  >
+        <div className='w-90     border-[#EA5D20] border-2 animate-pulse rounded-full  '  >
           
-          <img src="/images/bg-white.svg" alt="" className='w-full h-full relative'  /> </div>
-          <img src="/images/Design.svg" alt="" className='float-right -mt-90 -mr-6 sm:-mr-8 sm:-mt-100'/>
+          {/* <img src="/images/bg-white.svg" alt="" className='w-full h-full relative'  />  */}
+          
+          <img src="/images/Fahadpicafo.png" alt="Fahad.png"  className='w-full h-full relative object-cover   rounded-full drop-shadow-md'style={{ boxShadow: '0 0 60px  #EA5D20, 0 0 80px  #EA5D20, 0 0 90px   #EA5D20' }}
+          />
+          
+          </div>
 
           
-        </div>
+         
         
       
    </div>
