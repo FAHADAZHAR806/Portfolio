@@ -28,20 +28,75 @@ export default function Header() {
           {/* Desktop Navbar (Grid Layout) */}
           <nav className="hidden md:block">
             <ul className="grid grid-cols-5  px-4 justify-items-end ">
-              <li>
-                <NavLink to="/Home">Home</NavLink>
+              <li className="hover:bg-[#0563bb] hover:border-2 hover:border-[#0563bb] hover:rounded-full hover:px-2">
+                <NavLink
+                  to="/Home"
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? "border-b-2 border-[#F50D32] rounded-b-sm"
+                        : "text-white"
+                    }`
+                  }
+                >
+                  Home
+                </NavLink>
               </li>
-              <li>
-                <NavLink to="/About">About</NavLink>
+              <li className="hover:bg-[#0563bb] hover:border-2 hover:border-[#0563bb] hover:rounded-full hover:px-2">
+                <NavLink
+                  to="/About"
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? "border-b-2 border-[#F50D32] rounded-b-sm"
+                        : "text-white"
+                    }`
+                  }
+                >
+                  About
+                </NavLink>
               </li>
-              <li>
-                <NavLink to="/">Portfolio</NavLink>
+              <li className="hover:bg-[#0563bb] hover:border-2 hover:border-[#0563bb] hover:rounded-full hover:px-2">
+                <NavLink
+                  to="/"
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? "border-b-2 border-[#F50D32] rounded-b-sm"
+                        : "text-white"
+                    }`
+                  }
+                >
+                  Portfolio
+                </NavLink>
               </li>
-              <li>
-                <NavLink to="/Services">Services</NavLink>
+              <li className="hover:bg-[#0563bb] hover:border-2 hover:border-[#0563bb] hover:rounded-full hover:px-2">
+                <NavLink
+                  to="/Services"
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? "border-b-2 border-[#F50D32] rounded-b-sm"
+                        : "text-white"
+                    }`
+                  }
+                >
+                  Services
+                </NavLink>
               </li>
-              <li>
-                <NavLink to="/Contact">Contact</NavLink>
+              <li className="hover:bg-[#0563bb] hover:border-2 hover:border-[#0563bb] hover:rounded-full hover:px-2 ">
+                <NavLink
+                  to="/Contact"
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? "border-b-2 border-[#F50D32] rounded-b-sm"
+                        : "text-white"
+                    }`
+                  }
+                >
+                  Contact
+                </NavLink>
               </li>
             </ul>
           </nav>
@@ -49,7 +104,7 @@ export default function Header() {
       </header>
 
       {/* Sidebar (Mobile Menu) */}
-      
+
       <div
         className={`fixed top-0 left-0 h-full w-[250] z-10 bg-white p-6 grid grid-rows-[auto_1fr] transition-transform duration-300 ${
           menuOpen ? "translate-x-0" : "-translate-x-full "
@@ -79,9 +134,7 @@ export default function Header() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/">
-              Portfolio
-            </NavLink>
+            <NavLink to="/">Portfolio</NavLink>
           </li>
           <li>
             <NavLink to="/Services" onClick={() => setMenuOpen(false)}>
@@ -95,8 +148,6 @@ export default function Header() {
           </li>
         </ul>
       </div>
-      
-      
     </>
   );
 }
