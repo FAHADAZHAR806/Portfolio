@@ -14,7 +14,7 @@ export default function Selected() {
         </span>
       </div>  
    
-    <div data-aos="fade-up" className='grid my-20  max-w-5xl m-auto sm:grid-cols-1  lg:grid-cols-2  justify-items-center text-white  '>
+    <div data-aos="fade-up" className='grid my-20 px-4  max-w-5xl m-auto sm:grid-cols-1  lg:grid-cols-2  justify-items-center text-white  '>
         <div data-aos="fade-up" className='grid gap-4 pb-6 '>
           <div className=' w-80 h-60 sm:w-110 sm:h-70 bg-[#161616]' >
             <img src="/icons/bgwhite.svg" alt="" className='-mr-40' />
@@ -52,11 +52,11 @@ export default function Selected() {
           
           
         </div>
-        <div data-aos="fade-up" className='grid gap-4 pb-6'>
+        <div data-aos="fade-up" className='grid gap-4 pb-6 '>
           <div className=' w-80 h-60 sm:w-110 sm:h-70 bg-[#161616]' >
             <img src="/icons/bgwhite.svg" alt="" className='-mr-40' />
           </div>
-          <div className='  grid w-90  sm:grid-cols-1 text-left sm:w-110 justify-items-start'>
+          <div className='  grid w-90  sm:grid-cols-1 text-left sm:w-110 justify-items-start '>
           <p className=''>eCommerce Web App Development</p>
           <p className=''>Lorem ipsum dolor sit amet, consectetur adipi scing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus.</p>
           <button className=' text-[#F50D32] py-2 px-4'>See details➡</button>

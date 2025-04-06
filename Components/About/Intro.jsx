@@ -50,8 +50,8 @@ export default function Intro() {
           </div>
           <div className=' grid grid-col-1 gap-6 text-[#FFFFFF] '>
     <p  className='text-[#F50D32] text-3xl'>Hi, Fahad Azhar</p>
-        <p className='text-2xl'>I'm <span className='text-[#f57d0dc0] ' >{displayText}</span></p>
-        <p className="" >Always eager to learn new technologies and continuously enhance my skills. Passionate about staying at the forefront of technology trends, I strive to drive success in software development. With a growth mindset, I embrace new challenges and am committed to delivering innovative solutions.</p>
+        <p className='text-2xl'>I'm <span className='text-[#f57d0dc0] pr-2' >{displayText}</span></p>
+        <p className="pr-4" >Always eager to learn new technologies and continuously enhance my skills. Passionate about staying at the forefront of technology trends, I strive to drive success in software development. With a growth mindset, I embrace new challenges and am committed to delivering innovative solutions.</p>
         <button className='rounded-2xl bg-[#F50D32] w-40 h-10 ' > <Link to="/contact">
   Contact Me
 </Link></button>

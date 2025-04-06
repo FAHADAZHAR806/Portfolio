@@ -10,7 +10,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="bg-[#161616] text-white shadow-md  ">
+      <header className=" bg-[#161616] text-white shadow-md  ">
         <div className="container m-auto grid grid-cols-[auto_auto] items-center py-6 max-w-screen-xl px-4">
           {/* Logo */}
           <h1 className="pl-10 text-[#F50D32] text-2xl font-bold">
@@ -49,9 +49,10 @@ export default function Header() {
       </header>
 
       {/* Sidebar (Mobile Menu) */}
+      
       <div
-        className={`fixed top-0 left-0 h-full w-[250] bg-white p-6 grid grid-rows-[auto_1fr] transition-transform duration-300 ${
-          menuOpen ? "translate-x-0" : "-translate-x-full"
+        className={`fixed top-0 left-0 h-full w-[250] z-10 bg-white p-6 grid grid-rows-[auto_1fr] transition-transform duration-300 ${
+          menuOpen ? "translate-x-0" : "-translate-x-full "
         } md:hidden`}
       >
         {/* Sidebar Header (Logo & Close Button) */}
@@ -94,6 +95,8 @@ export default function Header() {
           </li>
         </ul>
       </div>
+      
+      
     </>
   );
 }
