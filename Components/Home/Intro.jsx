@@ -51,7 +51,6 @@ export default function Intro() {
   Contact Me
 </Link></button>
         
-        
     </div>
 
        
