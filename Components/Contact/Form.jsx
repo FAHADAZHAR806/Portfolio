@@ -8,8 +8,9 @@ export default function Form() {
     <h1 className="text-3xl font-bold"> GET IN TOUCH</h1>
         <hr className="text-[#F50D32] border px  w-22 my-2 " />
       
-       <p className='text-center lg:text-left'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
-        Magni a neque tenetur vel exercitationem iusto eos ut, quasi assumenda deserunt?</p>
+       <p className='text-center lg:text-left'>Feel free to reach out if you have any questions,or just want to connect.Looking forward to hearing from you!
+
+</p>
        
     </div>
     <div className=' '>

@@ -2,6 +2,7 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
+import ScrollToTopButton from '../ScrollToTopButton/ScrollToTopButton'
 import { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
@@ -21,6 +22,7 @@ export default function Layout() {
     <Header/>
     <Outlet/>
     <Footer/>
+    <ScrollToTopButton/>
     </>
   )
 }

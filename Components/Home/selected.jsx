@@ -6,7 +6,7 @@ export default function Selected() {
     {
       id: 1,
       title: "CafeDine",
-      image: "/images/Project1.PNG ", // project image link
+      image: "/images/Project1.png ", // project image link
       link: "https://cafedine-8bf78f.netlify.app/",
     },
     
@@ -38,7 +38,7 @@ export default function Selected() {
         <p className='text-4xl'>Hepta Clone</p>
         <p  >Hepta Clone is a travel website project.
 I created this theme clone to practice and improve my front-end development skills.
-The main goal was to enhance my understanding of layout design and stylin</p>
+The main goal was to enhance my understanding of layout design and styling.</p>
         <button className='rounded-2xl w-40 text-left  h-10 text-[#F50D32] sm:w-40 sm:h-10' onClick={() => window.open('https://nimble-paprenjak-921093.netlify.app/')}>See Details ➡</button>
         
     </div>
@@ -53,7 +53,7 @@ The main goal was to enhance my understanding of layout design and stylin</p>
             className="group"
           >
             <div className="bg-white  overflow-hidden shadow-lg hover:scale-105 duration-300 cursor-pointer">
-              <img src={project.image} alt={project.title} className="w-full h-80 " />
+              <img src={project.image} alt={project.title} className="w-full h-80 object-cover " />
             </div>
           </a>
         ))}
@@ -77,7 +77,7 @@ The main goal was to enhance my understanding of layout design and stylin</p>
             className="group"
           >
             <div className="bg-white  overflow-hidden shadow-lg hover:scale-105 duration-300 cursor-pointer">
-              <img src={project.image} alt={project.title} className="w-full h-80 " />
+              <img src={project.image} alt={project.title} className="w-full h-80  object-center" />
             </div>
           </a>
         ))}
