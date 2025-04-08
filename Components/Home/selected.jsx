@@ -6,7 +6,7 @@ export default function Selected() {
     {
       id: 1,
       title: "CafeDine",
-      image: "/images/Project1.png ", // project image link
+      image: "/images/Cafedine.png ", // project image link
       link: "https://cafedine-8bf78f.netlify.app/",
     },
     
