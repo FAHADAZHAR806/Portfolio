@@ -4,7 +4,8 @@ import Service from './Service'
 import Card from './Card'
 import Selected from './selected'
 import Testimonial from './Testimonial'
-import Discover from './Discover'
+import ServiceCard from "./ServiceCard";
+import Discover from "./Discover"
 export default function Intro() {
 
   const paragraphs = ["Software Engineer", "Front End Web Developer"];
@@ -71,6 +72,7 @@ export default function Intro() {
       
    </div>
    <Service/>
+   <ServiceCard/>
    <Card/>
   <Selected/>
   <Testimonial/>
