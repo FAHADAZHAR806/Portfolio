@@ -18,7 +18,7 @@ export default function Selected() {
       image: "/images/Project2.PNG ", // project image link
       link: "https://nimble-paprenjak-921093.netlify.app/",
     },
-    
+    // updated images
   ];
   return (
 
