@@ -17,62 +17,7 @@ export default function Whatwedo() {
         </span>
     
     </div>
-    <div data-aos="fade-up" className='grid  sm:grid-cols-2 md:grid-cols-3 max-w-5xl m-auto  justify-items-center text-white bg-[#161616;] py-10 rounded-2xl'>
-       <div data-aos="fade-up" className='border-2 border-white w-60 h-60 my-4 rounded-2xl grid grid-cols-1 justify-items-start p-2'>
-       <div className="bg-[#F50D32] rounded-2xl grid grid-cols-1 justify-items-center w-8 h-8">
-    <span className='p-2'><img src="/icons/Frame.svg" alt="" /></span>
-    </div>
-    <h1 className='text-[#FFFFFF]'>Resarch</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, expedita..</p>
-    <button className='grid grid-rows-1 justify-items-start py-2 '>Learn More ➡</button>
-
-       </div>
-       <div data-aos="fade-up" className='border-2 border-white w-60 h-60 my-4  rounded-2xl grid grid-cols-1 justify-items-start p-2'>
-       <div className="bg-[#F50D32] rounded-2xl grid grid-cols-1 justify-items-center w-8 h-8">
-    <span className='p-2'><img src="/icons/Frame2.svg" alt="" /></span>
-    </div>
-    <h1 className='text-[#FFFFFF]'>Branding</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, expedita..</p>
-    <button className='grid grid-rows-1 justify-items-start py-2 '>Learn More ➡</button>
-
-       </div>
-       <div data-aos="fade-up" className='border-2 border-white w-60 h-60 my-4  rounded-2xl grid grid-cols-1 justify-items-start p-2'>
-       <div className="bg-[#F50D32] rounded-2xl grid grid-cols-1 justify-items-center w-8 h-8">
-    <span className='p-2'><img src="/icons/Frame3.svg" alt="" /></span>
-    </div>
-    <h1 className='text-[#FFFFFF]'>UI/UX Design</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, expedita..</p>
-    <button className='grid grid-rows-1 justify-items-start py-2 '>Learn More ➡</button>
-
-       </div>
-       <div data-aos="fade-up" className='border-2 border-white w-60 h-60 my-4  rounded-2xl grid grid-cols-1 justify-items-start p-2 '>
-       <div className="bg-[#F50D32] rounded-2xl grid grid-cols-1 justify-items-center w-8 h-8">
-    <span className='p-2'><img src="/icons/Frame.svg" alt="" /></span>
-    </div>
-    <h1 className='text-[#FFFFFF]'>Resarch</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, expedita..</p>
-    <button className='grid grid-rows-1 justify-items-start py-2 '>Learn More ➡</button>
-
-       </div>
-       <div data-aos="fade-up" className='border-2 border-white w-60 h-60 my-4  rounded-2xl grid grid-cols-1 justify-items-start p-2'>
-       <div className="bg-[#F50D32] rounded-2xl grid grid-cols-1 justify-items-center w-8 h-8">
-    <span className='p-2'><img src="/icons/Frame2.svg" alt="" /></span>
-    </div>
-    <h1 className='text-[#FFFFFF]'>Branding</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, expedita..</p>
-    <button className='grid grid-rows-1 justify-items-start py-2 '>Learn More ➡</button>
-
-       </div>
-       <div data-aos="fade-up" className='border-2 border-white w-60 h-60 my-4  rounded-2xl grid grid-cols-1 justify-items-start p-2'>
-       <div className="bg-[#F50D32] rounded-2xl grid grid-cols-1 justify-items-center w-8 h-8">
-    <span className='p-2'><img src="/icons/Frame3.svg" alt="" /></span>
-    </div>
-    <h1 className='text-[#FFFFFF]'>UI/UX Design</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, expedita..</p>
-    <button className='grid grid-rows-1 justify-items-start py-2 '>Learn More ➡</button>
-
-       </div>
-      </div>
+   
       
 
     </>

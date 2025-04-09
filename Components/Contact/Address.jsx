@@ -1,6 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-
 export default function Address() {
   const number="+923415742411"
   const address="Surge Group Of Hostels 6th Road Rawalpindi."

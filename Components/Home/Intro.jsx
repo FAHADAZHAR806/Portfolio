@@ -6,6 +6,7 @@ import Selected from './selected'
 import Testimonial from './Testimonial'
 import ServiceCard from "./ServiceCard";
 import Discover from "./Discover"
+// import Projects from "./Projects";
 export default function Intro() {
 
   const paragraphs = ["Software Engineer", "Front End Web Developer"];
@@ -77,6 +78,7 @@ export default function Intro() {
   <Selected/>
   <Testimonial/>
   <Discover/>
+  {/* <Projects/> */}
     </>
   )
 }
