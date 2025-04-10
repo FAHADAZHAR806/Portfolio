@@ -30,7 +30,7 @@ export default function Header() {
             <ul className="grid grid-cols-5  px-4 justify-items-end ">
               <li className="hover:bg-[#0563bb] hover:border-1 hover:border-[#0563bb] hover:rounded-full hover:px-2">
                 <NavLink
-                  to="/Home"
+                  to="/"
                   className={({ isActive }) =>
                     `${
                       isActive
@@ -58,7 +58,7 @@ export default function Header() {
               </li>
               <li className="hover:bg-[#0563bb] hover:border-2 hover:border-[#0563bb] hover:rounded-full hover:px-2">
                 <NavLink
-                  to="/"
+                  to="/Home"
                   className={({ isActive }) =>
                     `${
                       isActive
