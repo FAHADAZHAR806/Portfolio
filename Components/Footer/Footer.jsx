@@ -27,7 +27,7 @@ export default function Footer() {
   return (
     <>
       <footer>
-        <div className="main-container grid  justify-items-center py-10  text-[#FFFFFF] grid-rows-5">
+        <div className="main-container grid justify-items-center  py-10  text-[#FFFFFF] grid-rows-5 w-full max-w-5xl  m-auto">
           <h1>Get In Touch With Me</h1>
           <p  className="text-center" onClick={handleMapClick}>{address} </p>
           <p onClick={handleEmailClick}>{email}</p>

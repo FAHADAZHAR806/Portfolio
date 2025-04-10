@@ -3,7 +3,7 @@ import "./App.css"
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Layout from "../Components/Layout/Layout.jsx";
-import Intro from "../Components/Home/Intro.jsx";
+import Home from "../Components/Home/Home.jsx";
 import About from "../Components/About/About.jsx";
 import Services from "../Components/Services/Services.jsx";
 import Contact from "../Components/Contact/Contact.jsx";
@@ -17,12 +17,12 @@ const router = createBrowserRouter([
     element: <Layout/>,
     children: [
       {
-        path: "",
-        element: <Intro />,
+        path: "/",
+        element: <Home/>,
       },
       {
         path: "/Home",
-        element: <Intro />,
+        element: <Home />,
       },
       {
         path: "/About",
