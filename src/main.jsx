@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css"
 import ReactDOM from "react-dom/client";
-import {  RouterProvider, createHashRouter  } from "react-router-dom";
+import {  RouterProvider, createBrowserRoute  } from "react-router-dom";
 import Layout from "../Components/Layout/Layout.jsx";
 import Home from "../Components/Home/Home.jsx";
 import About from "../Components/About/About.jsx";
@@ -11,7 +11,7 @@ import Contact from "../Components/Contact/Contact.jsx";
 
 
 
-const router = createHashRouter ([
+const router = createBrowserRoute([
   {
     path: "/",
     element: <Layout/>,
