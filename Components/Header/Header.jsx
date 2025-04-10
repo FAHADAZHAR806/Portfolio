@@ -10,7 +10,7 @@ export default function Header() {
 
   return (
     <>
-      <header className=" bg-[#161616] text-white shadow-md  ">
+      <header className=" bg-[#161616] text-white shadow-lg   ">
         <div className="container  grid grid-cols-[auto_auto] items-center py-6 w-full max-5xl m-auto px-4">
           {/* Logo */}
           <h1 className=" text-[#F50D32] text-2xl font-bold">
@@ -27,8 +27,8 @@ export default function Header() {
 
           {/* Desktop Navbar (Grid Layout) */}
           <nav className="hidden md:block">
-            <ul className="grid grid-cols-5  px-4 justify-items-end ">
-              <li className="hover:bg-[#0563bb] hover:border-1 hover:border-[#0563bb] hover:rounded-full hover:px-2">
+            <ul className="grid grid-cols-5  px-4  justify-items-end ">
+              <li className="hover:bg-[#0563bb]  hover:border-[#0563bb] hover:rounded-full px-2 ">
                 <NavLink
                   to="/"
                   className={({ isActive }) =>
@@ -42,7 +42,7 @@ export default function Header() {
                   Home
                 </NavLink>
               </li>
-              <li className="hover:bg-[#0563bb] hover:border-2 hover:border-[#0563bb] hover:rounded-full hover:px-2">
+              <li className="hover:bg-[#0563bb]  hover:border-[#0563bb] hover:rounded-full px-2 ">
                 <NavLink
                   to="/About"
                   className={({ isActive }) =>
@@ -56,7 +56,7 @@ export default function Header() {
                   About
                 </NavLink>
               </li>
-              <li className="hover:bg-[#0563bb] hover:border-2 hover:border-[#0563bb] hover:rounded-full hover:px-2">
+              <li className="hover:bg-[#0563bb]  hover:border-[#0563bb] hover:rounded-full px-2  ">
                 <NavLink
                   to="/Home"
                   className={({ isActive }) =>
@@ -70,7 +70,7 @@ export default function Header() {
                   Portfolio
                 </NavLink>
               </li>
-              <li className="hover:bg-[#0563bb] hover:border-2 hover:border-[#0563bb] hover:rounded-full hover:px-2">
+              <li className="hover:bg-[#0563bb]  hover:border-[#0563bb] hover:rounded-full px-2 ">
                 <NavLink
                   to="/Services"
                   className={({ isActive }) =>
@@ -84,7 +84,7 @@ export default function Header() {
                   Services
                 </NavLink>
               </li>
-              <li className="hover:bg-[#0563bb] hover:border-2 hover:border-[#0563bb] hover:rounded-full hover:px-2 ">
+              <li className="hover:bg-[#0563bb]  hover:border-[#0563bb] hover:rounded-full px-2  ">
                 <NavLink
                   to="/Contact"
                   className={({ isActive }) =>

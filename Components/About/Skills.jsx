@@ -17,8 +17,6 @@ export default function Skills() {
     },{
       lang:"React"
     }
-    
-
   ]
   const bgColors = [
     "bg-[#e34c26]",  // HTML

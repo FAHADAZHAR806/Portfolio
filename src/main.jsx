@@ -10,14 +10,14 @@ import Contact from "../Components/Contact/Contact.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter  basename="/">
+    <BrowserRouter >
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="About" element={<About />} />
-          <Route path="Home" element={<Home />} />
-          <Route path="Services" element={<Services />} />
-          <Route path="Contact" element={<Contact />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Home" element={<Home />} />
+          <Route path="/Services" element={<Services />} />
+          <Route path="/Contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>

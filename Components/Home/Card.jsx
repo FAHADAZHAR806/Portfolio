@@ -1,5 +1,4 @@
 import React from "react";
-import PriceCard from "./PriceCard";
 
 export default function Card() {
   return (
@@ -14,7 +13,7 @@ export default function Card() {
         </span>
       </div>
 
-     <PriceCard/>
+    
     </>
   );
 }
