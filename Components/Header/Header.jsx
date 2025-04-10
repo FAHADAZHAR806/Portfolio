@@ -58,7 +58,7 @@ export default function Header() {
               </li>
               <li className="hover:bg-[#0563bb]  hover:border-[#0563bb] hover:rounded-full px-2  ">
                 <NavLink
-                  to="/Home"
+                  to="/Portfolio"
                   className={({ isActive }) =>
                     `${
                       isActive

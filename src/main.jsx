@@ -7,6 +7,7 @@ import Home from "../Components/Home/Home.jsx";
 import About from "../Components/About/About.jsx";
 import Services from "../Components/Services/Services.jsx";
 import Contact from "../Components/Contact/Contact.jsx";
+import Portfolio from "../Components/Portfolio/Portfolio.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -14,10 +15,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Home" element={<Home />} />
-          <Route path="/Services" element={<Services />} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="About" element={<About />} />
+          <Route path="Portfolio" element={<Portfolio />} />
+          <Route path="Services" element={<Services />} />
+          <Route path="Contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>
