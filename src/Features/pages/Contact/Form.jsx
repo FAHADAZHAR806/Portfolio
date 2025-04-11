@@ -1,6 +1,21 @@
 import React from "react";
+import { useState } from "react";
 
 export default function Form() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = () => {
+    if (!name || !email || !message) {
+      alert("Please fill all required fields");
+    } else {
+      alert("Message Submitted Successfully!");
+      setName("");
+      setEmail("");
+      setMessage("");
+    }
+  };
   return (
     <>
       <div
@@ -20,15 +35,39 @@ export default function Form() {
           <div className="grid sm:grid-cols-2 sm:grid-rows-2 gap-4">
             <div className="grid grid-cols-1 gap-1 ">
               <p>Name</p>
-              <input type="text" name="" id="" className="bg-[#343434]" />
+              <input
+                type="text"
+                name=""
+                id=""
+                className="bg-[#343434] "
+                placeholder="Your Name"
+                required
+                onChange={(e) => setName(e.target.value)}
+                value={name}
+              />
             </div>
             <div className="grid grid-cols-1 gap-1 justify-items-start">
               <p>Email</p>
-              <input type="email" name="" id="" className="bg-[#343434]" />
+              <input
+                type="email"
+                name=""
+                id=""
+                className="bg-[#343434]"
+                placeholder="Your Email"
+                required
+                onChange={(e) => setEmail(e.target.value)}
+                value={email}
+              />
             </div>
             <div className="grid grid-cols-1 gap-1 justify-items-start">
               <p>Phone Number</p>
-              <input type="number" name="" id="" className="bg-[#343434]" />
+              <input
+                type="number"
+                name=""
+                id=""
+                className="bg-[#343434]"
+                placeholder="Your Mobile Number"
+              />
             </div>
             <div className="grid grid-cols-1 gap-1 justify-items-start">
               <p>Subject</p>
@@ -39,10 +78,17 @@ export default function Form() {
             <p>Message</p>
             <textarea
               name=""
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
               id=""
               className="bg-[#343434] w-full h-26"
+              placeholder="Type your message here...."
+              required
             ></textarea>
-            <button className=" bg-[#F50D32] py-2 px-4 rounded-xl w-40">
+            <button
+              className=" bg-[#F50D32] py-2 px-4 rounded-xl w-40"
+              onClick={handleSubmit}
+            >
               Send Message
             </button>
           </div>

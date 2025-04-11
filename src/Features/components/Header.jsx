@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import {Link, NavLink } from "react-router-dom";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,7 +14,9 @@ export default function Header() {
         <div className="container  grid grid-cols-[auto_auto] items-center py-6 w-full max-5xl m-auto px-4">
           {/* Logo */}
           <h1 className=" text-[#F50D32] text-2xl font-bold">
-            WEBDEV <span className="text-[24px] text-white">.</span>
+          <Link to="">WEBDEV</Link>
+             <span className="text-[24px] text-white">.</span>
+            
           </h1>
 
           {/* Menu Button (Mobile View) */}
