@@ -126,7 +126,7 @@ export default function Header() {
         {/* Sidebar Menu (Grid Layout) */}
         <ul className="grid pb-80  text-[#161616]">
           <li>
-            <NavLink to="/Home" onClick={() => setMenuOpen(false)}>
+            <NavLink to="/" onClick={() => setMenuOpen(false)}>
               Home
             </NavLink>
           </li>
@@ -136,7 +136,7 @@ export default function Header() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/">Portfolio</NavLink>
+            <NavLink to="/Portfolio" onClick={() => setMenuOpen(false)}>Portfolio</NavLink>
           </li>
           <li>
             <NavLink to="/Services" onClick={() => setMenuOpen(false)}>
