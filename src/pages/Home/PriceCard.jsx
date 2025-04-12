@@ -36,7 +36,7 @@ export default function PriceCard() {
           <div
             key={index}
             data-aos="fade-up"
-            className="card grid grid-cols-1 gap-2 text-amber-50 border-2 border-amber-50 w-80 h-full py-10 px10 rounded-2xl justify-items-center"
+            className="card grid grid-cols-1 gap-2 text-amber-50 border-2 border-amber-50 w-80 h-full py-10 px10 rounded-2xl justify-items-center hover:scale-105 duration-300 cursor-pointer"
           >
             <h2 className="text-xl">{item.title}</h2>
             <div className="bg-[#F50D32] rounded-3xl grid grid-cols-1 w-10 h-full ">

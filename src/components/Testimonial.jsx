@@ -9,10 +9,9 @@ export default function Testimonial() {
       >
         <h1 className="text-3xl font-bold"> Testimonials</h1>
         <hr className="text-[#F50D32] w-14  mb-6 " />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-        veritatis, <br />{" "}
+        I take pride in building fast, responsive, and modern websites that help my clients grow <br />{" "}
         <span>
-          magni assumenda dolores. Ullam corporis rem temporibus labore?
+        Here’s what some of them had to say about working with me.
         </span>
       </div>
     </>
