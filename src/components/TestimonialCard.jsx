@@ -43,6 +43,7 @@ export default function TestimonialCard() {
                 src={item.img}
                 className="w-24 h-24 rounded-full object-cover  "
                 alt="William-Roy.jpg"
+                loading="lazy"
               />
             </div>
             <div className="grid grid-cols-1 justify-items-center">

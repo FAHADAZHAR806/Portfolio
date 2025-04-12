@@ -61,12 +61,14 @@ export default function Form() {
             </div>
             <div className="grid grid-cols-1 gap-1 justify-items-start">
               <p>Phone Number</p>
+             
               <input
-                type="number"
+                type="tel"
                 name=""
                 id=""
                 className="bg-[#343434]"
                 placeholder="Your Mobile Number"
+                
               />
             </div>
             <div className="grid grid-cols-1 gap-1 justify-items-start">

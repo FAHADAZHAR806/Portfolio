@@ -7,7 +7,7 @@ import Selected from "./Selected";
 import SelectedWork from "./SelectedWork";
 import Count from "./Count";
 import CountCard from "./CountCard";
-import Discover from "/src/Features/components/Discover.jsx";
+import Discover from "/src/components/Discover.jsx";
 export default function About() {
   return (
     <>

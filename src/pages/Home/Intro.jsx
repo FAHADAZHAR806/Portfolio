@@ -62,6 +62,7 @@ export default function Intro() {
             src="/images/Fahadpicafo.png"
             alt="Fahad.png"
             className="w-full h-full relative object-cover   rounded-full drop-shadow-md"
+            loading="lazy"
             style={{
               boxShadow:
                 "0 0 60px  #EA5D20, 0 0 80px  #EA5D20, 0 0 90px   #EA5D20",

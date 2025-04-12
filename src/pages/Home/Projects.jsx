@@ -43,13 +43,13 @@ export default function Projects() {
                 </div>
 
                 <div className="bg-white   overflow-hidden shadow-lg hover:scale-105 duration-300 cursor-pointer">
-                  <img src={item.img} alt="" className="w-full h-full " />
+                  <img src={item.img} alt="" className="w-full h-full " loading="lazy"/>
                 </div>
               </>
             ) : (
               <>
                 <div className="bg-white  overflow-hidden shadow-lg hover:scale-105 duration-300 cursor-pointer">
-                  <img src={item.img} alt="" className="w-full h-full  " />
+                  <img src={item.img} alt="" className="w-full h-full  " loading="lazy" />
                 </div>
 
                 <div className="grid gap-4  sm:grid-col-1 sm:gap-6  text-[#FFFFFF] sm:p-10">

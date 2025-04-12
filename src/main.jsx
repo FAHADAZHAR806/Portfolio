@@ -2,12 +2,12 @@ import React from "react";
 import "./App.css";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "/src/Features/layout/Layout.jsx";
-import Home from "/src/Features/pages/Home/Home.jsx";
-import About from "/src/Features/pages/About/About.jsx";
-import Services from "/src/Features/pages/Services/Services.jsx";
-import Contact from "/src/Features/pages/Contact/Contact.jsx";
-import Portfolio from "/src/Features/pages/Portfolio/Portfolio.jsx";
+import Layout from "/src/App.jsx"
+import Home from "/src/pages/Home/Home.jsx";
+import About from "/src/pages/About/About.jsx";
+import Services from "/src/pages/Services/Services.jsx";
+import Contact from "/src/pages/Contact/Contact.jsx";
+import Portfolio from "/src/pages/Portfolio/Portfolio.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

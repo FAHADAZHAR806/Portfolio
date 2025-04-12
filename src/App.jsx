@@ -1,8 +1,8 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import Header from '/src/Features/components/Header.jsx'
-import Footer from '/src/Features/components/Footer.jsx'
-import ScrollToTopButton from '/src/Features/components/ScrollToTopButton.jsx'
+import Header from '/src/components/Header.jsx'
+import Footer from '/src/components/Footer.jsx'
+import ScrollToTopButton from '/src/components/ScrollToTopButton.jsx'
 import { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
