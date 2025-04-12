@@ -45,7 +45,7 @@ export default function Projects() {
  {Project.map((item,index)=>(
   <div key={index} className='bg-[#2E2E30] text-white bg- grid grid-cols-1 justify-items-start gap-4 py-10 px-10 border-2 rounded-md  w-full h-full hover:scale-105 duration-300'> 
   <div >
-    <img src={item.img} alt="Project1.png" className='w-full h-full object-cover' />
+    <img src={item.img} alt="Project1.png" className='w-full h-full object-cover '  />
   </div>
   <div className=' shadow-2xl shadow-black  '>
     <h1 className='text-xl py-2'>E-commerce website</h1>
