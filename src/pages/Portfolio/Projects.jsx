@@ -7,13 +7,12 @@ const Project=[
   buttontext:"Live Demo ➡"
 },
 {
-  img:"/images/Cafedine.png",
+  img:"/images/Avo.PNG",
   Pname:"",
   Para:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo debitis asperiores recusandae ab at, ea dignissimos. Qui soluta sapiente itaque!",
   buttontext:"Live Demo ➡"
 },
-{
-  img:"/images/Project2.PNG" ,
+{img:"/images/World.PNG",
   Pname:"",
   Para:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo debitis asperiores recusandae ab at, ea dignissimos. Qui soluta sapiente itaque!",
   buttontext:"Live Demo ➡"

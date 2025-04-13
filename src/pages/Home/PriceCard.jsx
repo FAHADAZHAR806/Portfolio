@@ -1,28 +1,36 @@
 import React from "react";
+import { SiTicktick } from "react-icons/si";
 
 export default function PriceCard() {
   const CardData = [
     {
-      title: "Silver",
-      Price: "20$",
-      list: ["Up to 3 Pages ", "3 Days", " Yes(1 Week)"],
+      title: "Basic",
+      Price: "$30",
+      Para: "Simple front-end-development for a starter website",
+      list: ["Up to 3 Pages ", "Responsive Design", " Delivery in 3 days"," No Revisions"],
       image: "/icons/Vector.svg",
       buttonText: "Select Plan➡",
-    },
-    {
-      title: "Gold",
-      Price: "50$",
-      list: ["Up to 6 Pages ", "6 Days", " Yes(1 Months)"],
-      image: "/icons/Vector.svg",
+      icon:SiTicktick 
 
+
+    },
+    {
+      title: "Standard",
+      Price: "$60",
+      Para: "Advanced front-end-development for a small to medium website",
+      list: ["Up to 6 Pages ", "Responsive Design", " Delivery in 7 days", " 2 Free Revisions"],
+      image: "/icons/Vector.svg",
+      icon:SiTicktick ,
       buttonText: "Select Plan➡",
     },
     {
-      title: "Platinum",
-      Price: "$100",
-      list: ["More than 6 Pages ", "12 Days", " Yes(3 Months)"],
+      title: "Premium",
+      Price: "$120",
+      Para: "Comprehensive front-end-development for a large website or app.",
+      list: ["More than 6 Pages ", "Responsive Design", " Delivery in 14 days", " Support & Revisions"],
       buttonText: "Select Plan➡",
       image: "/icons/trophy.svg",
+      icon:SiTicktick ,
     },
   ];
 
@@ -38,23 +46,26 @@ export default function PriceCard() {
             data-aos="fade-up"
             className="card grid grid-cols-1 gap-2 text-amber-50 border-2 border-amber-50 w-80 h-full py-10 px10 rounded-2xl justify-items-center hover:scale-105 duration-300 cursor-pointer"
           >
-            <h2 className="text-xl">{item.title}</h2>
-            <div className="bg-[#F50D32] rounded-3xl grid grid-cols-1 w-10 h-full ">
-              <span className="p-2 ">
-                <img src="/icons/Vector.svg" alt="" />
-              </span>
-            </div>
-            <p className="font-bold p-2 text-4xl">{item.Price}</p>
+            <h2 className="text-2xl">{item.title}</h2>
+              <p className="text-center p-4">{item.Para}</p>
+           <div className="grid">
+           <p className="font-bold  text-3xl">{item.Price}</p>
+            <p className="text-center">/project</p>
 
-            <div className=" grid grid-cols-1 gap-10 py-10 ">
-              <li className="list-image-[url(/icons/Group14.svg)] ">
-                <span className="relative -top-2">{item.list[0]}</span>
+           </div>
+            
+            <div className=" grid grid-cols-1 gap-3 py-4 justify-items-start ">
+              <li>
+                {item.list[0]}
               </li>
-              <li className="list-image-[url(/icons/Group14.svg)] ">
-                <span className="relative -top-2">{item.list[1]}</span>
+              <li>
+                {item.list[1]}
               </li>
-              <li className="list-image-[url(/icons/Group14.svg)] ">
-                <span className="relative -top-2">{item.list[2]}</span>
+              <li>
+              {item.list[2]}
+              </li>
+              <li>
+              {item.list[3]}
               </li>
             </div>
 
