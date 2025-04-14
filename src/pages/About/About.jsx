@@ -1,5 +1,7 @@
 import React from "react";
 import Intro from "./Intro";
+import Education from "./Education";
+import Institue from "./Institue";
 import Experience from "./Experience";
 import ExperienceCard from "./ExperienceCard";
 import Skills from "./Skills";
@@ -12,6 +14,8 @@ export default function About() {
   return (
     <>
       <Intro />
+      <Education/>
+      <Institue/>
       <Experience />
       <ExperienceCard/>
       <Skills />
