@@ -2,6 +2,7 @@ import React from 'react'
 
 export default function Education() {
   return (
+    
 
     <>
     <div data-aos="fade-up"className="Experience grid w-full justify-items-start p-10 max-w-5xl m-auto sm:grid-cols-1  sm:justify-items-center text-amber-50 ">
