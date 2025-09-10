@@ -8,6 +8,7 @@ export default function TestimonialCard() {
       img: "/images/William.jpg",
       person: "William Roy",
       design: "Accountant",
+      link: "/",
     },
     {
       text: "❝",
